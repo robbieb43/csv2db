@@ -6,15 +6,25 @@ It has been tailored to work with the output from the excellent rtl_433 software
 Usage:
 
 ./csv2db-v2 [OPTIONS]
+
   -b, --bulk    for bulk mode (leaves DB open for session)
+  
   -d <name>, --database <name>  selects specific database (default is weather)
+  
   -h, --help    print this help and exit
+  
   -i, --ignore  ignore the first line of the CSV (assumed header)
+  
   -l, --log             for log mode (creates second output stream to stdout)
-  -s <name>, --server <name>    selects specific database server (default is localhost)
-  -t <name>, --table <name>     selects specific database table (default is )
-  -u <name>, --user <name>      selects specific database user id (default is )
-  -p <name>, --password <name>  selects specific database password (default is )
+  
+  -s <name>, --server <name>    selects specific database server (default is <your default>)
+  
+  -t <name>, --table <name>     selects specific database table (default is <your default>)
+  
+  -u <name>, --user <name>      selects specific database user id (default is <your default>)
+  
+  -p <name>, --password <name>  selects specific database password (default is <your default>)
+  
   -v, --verbose         provides more output to allow debugging bad csv streams (outputs stream to stderr)
 
 
