@@ -27,4 +27,8 @@ Usage:
   
   -v, --verbose         provides more output to allow debugging bad csv streams (outputs stream to stderr)
 
+Example:
 
+Here is my command line using rtl_433 and my compiled in database/table/user values:
+
+/usr/local/bin/rtl_433 -f 868200000 -F csv: | /home/pi/projects/rtl_433/csv2db&
